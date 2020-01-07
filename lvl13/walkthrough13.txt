@@ -1,0 +1,4 @@
+copy private key file (using cat) in sshkey.txt
+chmod 600 sshkey.txt
+ssh -i sshkey.txt bandit14@bandit.labs.overthewire.org -p 2220
+
