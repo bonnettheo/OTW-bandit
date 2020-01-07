@@ -1,0 +1,9 @@
+cat /etc/bandit_pass/bandit15
+
+flag 14 : BfMYroe26WYalil77FoDi9qh59eK5xNr
+
+openssl s_client -connect localhost:30001
+
+flag : cluFn7wTiGryunymYOu4RcffSxQluehd
+
+ssh bandit16@bandit.labs.overthewire.org -p 2220
