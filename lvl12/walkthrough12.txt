@@ -1,0 +1,30 @@
+mkdir /tmp/memyselfandi
+cp data.txt /tmp/memyselfandi
+cd /tmp/memyselfandi
+xxd -r data.txt > compressed.txt.gz
+file compressed.txt.gz
+gzip -d compressed.txt
+file compressed.txt
+mv compressed.txt compressed.txt
+bunzip2 compressed.txt
+file compressed.txt.out
+mv compressed.txt.out compressed.gz
+gzip -d compressed.gz
+file compressed
+tar -xvf compressed
+mv data5.bin compressed
+file compressed
+mv data6.bin compressed
+file compressed
+bunzip2 compressed
+mv compressed.out compressed
+file compressed
+tar -xvf compressed
+mv data8.bin compressed
+file compressed
+gunzip -c compressed
+
+
+flag : 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
+
+ssh bandit13@bandit.labs.overthewire.org -p 2220
