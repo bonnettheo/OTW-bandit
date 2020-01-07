@@ -1,0 +1,8 @@
+cd inhere
+find / > /tmp/test6
+xargs ls -l < /tmp/test6 | grep "bandit7" | grep "bandit6" | grep "33"
+cat /var/lib/dpkg/info/bandit7.password
+
+flag : HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
+
+ssh bandit7@bandit.labs.overthewire.org -p 2220
