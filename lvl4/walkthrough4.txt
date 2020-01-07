@@ -1,0 +1,7 @@
+cd inhere
+file ./-file0[0-9]
+cat ./-file07
+
+flag : koReBOKuIDDepwhWk7jZC0RTdopnAYKh
+
+ssh bandit5@bandit.labs.overthewire.org -p 2220
