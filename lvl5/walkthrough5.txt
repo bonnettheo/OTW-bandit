@@ -1,0 +1,8 @@
+cd inhere
+find > /tmp/tes
+xargs ls -l < /tmp/tes | grep "1033"
+cat ./maybehere07/.file2
+
+flag : DXjZPULLxYr17uwoI01bNLQbtFemEgo7
+
+ssh bandit6@bandit.labs.overthewire.org -p 2220
