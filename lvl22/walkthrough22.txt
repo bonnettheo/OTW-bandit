@@ -1,0 +1,10 @@
+cat /etc/cron.d/cronjob_bandit23
+cat /usr/bin/cronjob_bandit23.sh
+/usr/bin/cronjob_bandit23.sh
+cat /tmp/8169b67bd894ddbb4412f91573b38db3
+echo I am user bandit23 | md5sum | cut -d ' ' -f 1
+cat /tmp/8ca319486bfbbc3663ea0fbe81326349
+
+flag : jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n
+
+ssh bandit23@bandit.labs.overthewire.org -p 2220
