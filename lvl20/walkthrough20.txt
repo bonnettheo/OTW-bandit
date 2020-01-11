@@ -1,0 +1,8 @@
+./suconnect 22222
+
+netcat -l -p 22222
+GbKksEFF4yrVs6il55v6gwY5aVje5f0j
+
+flag : gE269g2h3mw3pwgrj0Ha9Uoqen1c9DGr
+
+ssh bandit21@bandit.labs.overthewire.org -p 2220
