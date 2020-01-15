@@ -1,0 +1,13 @@
+git clone ssh://bandit31-git@localhost/home/bandit31-git/repo /tmp/bandit31-clone
+
+cd /tmp/bandit31-clone
+
+rm .gitignore
+nano key.txt
+git add .
+git commit -m "message"
+git push
+
+flag : 56a9bf19c63d650ce78e6ec0354ee45e
+
+ssh bandit32@bandit.labs.overthewire.org -p 2220
