@@ -14,4 +14,4 @@ v
 whoami
 
 
-ssh bandit25@bandit.labs.overthewire.org -p 2220
+ssh bandit26@bandit.labs.overthewire.org -p 2220
