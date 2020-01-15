@@ -1,0 +1,11 @@
+git clone ssh://bandit30-git@localhost/home/bandit30-git/repo /tmp/bandit30-clone
+
+cd /tmp/bandit30-clone
+
+cat README.md
+git tag
+git show secret
+
+flag : 47e603bb428404d265f59c42920d81e5
+
+ssh bandit31@bandit.labs.overthewire.org -p 2220

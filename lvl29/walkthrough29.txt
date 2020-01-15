@@ -1,5 +1,7 @@
 git clone ssh://bandit29-git@localhost/home/bandit29-git/repo /tmp/bandit29-clone
 
+cd /tmp/bandit29-clone
+
 cat README.md
 git checkout dev
 cat README.md
