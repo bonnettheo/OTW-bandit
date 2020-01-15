@@ -1,0 +1,9 @@
+git clone ssh://bandit29-git@localhost/home/bandit29-git/repo /tmp/bandit29-clone
+
+cat README.md
+git checkout dev
+cat README.md
+
+flag : 5b90576bedb2cc04c86a9e924ce42faf
+
+ssh bandit30@bandit.labs.overthewire.org -p 2220
